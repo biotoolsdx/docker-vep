@@ -4,7 +4,7 @@
 FROM ubuntu:18.04 as builder
 
 
-ARG vep_version=98
+ARG vep_version=100
 # Update aptitude and install some required packages
 # a lot of them are required for Bio::DB::BigFile
 RUN apt-get update && apt-get -y install \
